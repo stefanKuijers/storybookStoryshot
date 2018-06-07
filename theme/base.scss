@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
+
+@font-face {
+  font-family: 'Bariol';
+  src: url('#{$fontPath}/bariol_regular-webfont.eot');
+  src: url('#{$fontPath}/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('#{$fontPath}/bariol_regular-webfont.woff2') format('woff2'),
+    url('#{$fontPath}/bariol_regular-webfont.woff') format('woff'),
+    url('#{$fontPath}/bariol_regular-webfont.ttf') format('truetype'),
+    url('#{$fontPath}/bariol_regular-webfont.svg#bariolbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: $fontColor;
+  font-family: $bodyFontFamily, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+h1, h2, h3, h4 {
+  font-family: $headingFontFamily, sans-serif;
+  font-weight: 400;
+}
+a,
+.Link:not([href]):not([tabindex]) {
+  color: $linkColor;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+  &:active {
+    color: $linkPressedColor;
+  }
+  &:disabled {
+    color: $linkDisabledColor;
+  }
+}
+
+.Hidden {
+  @media (max-width: #{$media--medium - 1px}) {
+    &--small {
+      display: none!important;
+    }
+  }
+  @media (min-width: $media--medium) and (max-width: #{$media--large - 1px}) {
+    &--medium {
+      display: none!important;
+    }
+  }
+  @media (min-width: $media--large) and (max-width: #{$media--extraLarge - 1px}) {
+    &--large {
+      display: none!important;
+    }
+  }
+  @media (min-width: $media--extraLarge) {
+    &--extraLarge {
+      display: none!important;
+    }
+  }
+}

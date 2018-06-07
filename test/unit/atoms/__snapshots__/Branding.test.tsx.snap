@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branding should match the snapshot 1`] = `
+<div
+  className="Branding tclass-branding"
+>
+  <img
+    className="Branding__logo"
+    src="https://i.ytimg.com/vi/4yikpWtIFU8/maxresdefault.jpg"
+  />
+  <b
+    className="Branding__text"
+  >
+    Tag Line
+  </b>
+</div>
+`;

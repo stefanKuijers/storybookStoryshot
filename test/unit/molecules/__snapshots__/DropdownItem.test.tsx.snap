@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownItem matches the snapshot 1`] = `
+<div
+  className="DropdownItem tclass-dropdownItem"
+>
+  <a>
+    <figure
+      className="Icon tclass-icon Icon__fire DropdownItem__icon"
+    >
+      <span
+        className="Icon__holder"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+      />
+    </figure>
+    <span
+      className="DropdownItem__content"
+    >
+      Lorem ipsum
+    </span>
+  </a>
+</div>
+`;

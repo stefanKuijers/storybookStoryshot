@@ -1,0 +1,59 @@
+@import "~theme/vars.scss";
+
+.Dropdown {
+  display: inline-block;
+  &__link {
+    display: inline-block;
+  }
+  &__link .Icon {
+    margin-left: .5em;
+    transition: transform .3s ease;
+  }
+  &__link .DropdownIcon {
+    display: inline-block;
+    transform: translateY(25%);
+  }
+  &--open &__link .DropdownIcon {
+    transform: rotate(180deg) translateY(-25%);
+  }
+}
+.Dropdown__content {
+  &.popover {
+    font-family: $bodyFontFamily;
+    border-radius: 5px;
+  }
+  &.Dropdown__content--no-border {
+    border: 1px solid $brandPopoverBorder;
+    box-shadow: 0px 4px 4px 0px rgba(59, 55, 81, 0.05);
+    &.bs-popover-bottom span.arrow:before {
+      border-bottom-color: $brandPopoverBorder;
+    }
+    &.bs-popover-top span.arrow:before {
+      border-top-color: $brandPopoverBorder;
+    }
+    &.bs-popover-left span.arrow:before {
+      border-left-color: $brandPopoverBorder;
+    }
+    &.bs-popover-right span.arrow:before {
+      border-right-color: $brandPopoverBorder;
+    }
+  }
+  .Dropdown__body {
+    padding: 15px 20px;
+  }
+}
+
+// Ask Bence
+.HeaderTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.HeaderTitle__icon {
+  margin-left: 10px;
+  height: 24px;
+  width: 24px;
+}

@@ -1,0 +1,90 @@
+// Primary colors
+$brandOrange: #f47623 !default;
+$brandDeepPurple: #3b3751 !default;
+$brandBlue: #39a0ed !default;
+$brandWhite: #ffffff !default;
+
+// Support colors
+$brandGreen: #36ca36 !default;
+$brandMatteGreen: #14c97b !default;
+$brandRed: #ef3f3f !default;
+$brandDeepBlue: #178cf6 !default;
+$brandYellow: #ffbf09 !default;
+$brandPink: #ff3e7f !default;
+$brandLavender: #886cff !default;
+$brandPaleBlue: #92afd7 !default;
+$brandPurpleGray: #d3d3e5 !default;
+
+$brandTableHover: #f0f7fd !default;
+$brandPopoverBorder: #f0f2f5 !default;
+$brandNavlink: #b0afb4 !default;
+
+// Neutrals
+$gray: #89888f !default;
+$gray15: #b0afb4 !default;
+$gray25: #cacacd !default;
+$gray35: #e4e4e6 !default;
+$gray40: #f1f1f2 !default;
+$ghost: #fafafd !default;
+
+// Typography
+$headingFontFamily: "Bariol" !default;
+$bodyFontFamily: "Rubik" !default;
+
+$headingExtraL: 36px !default;
+$headingL: 28px !default;
+$headingN: 24px !default;
+$headingS: 20px !default;
+$bodyN: 14px !default;
+$bodyS: 12px !default;
+
+$buttonFontSize: 14px !default;
+$buttonFontWeight: 500 !default;
+
+$labelFontSize: 12px !default;
+$labelFontWeight: 500 !default;
+
+$iconFontSize: 1em !default;
+$iconXS: 0.7em !default;
+$iconS: 16px !default;
+$iconM: 18px !default;
+$iconL: 20px !default;
+$iconXL: 24px !default;
+
+// Element sizes
+$headerHeight: 64px !default; // actual height +1px
+// $navbarWidth--md: 64px !default;
+// $navbarWidth--lg: 160px !default;
+$navbarWidth--large: 64px !default;
+$navbarWidth--extraLarge: 178px !default;
+$sidebarHeaderHeight: 96px !default;
+$sidebarFooterHeight: 73px !default;
+
+$fontColor: $brandDeepPurple !default;
+$fadedText: $gray15 !default;
+$disabledText: $gray25 !default;
+
+$linkColor: $brandBlue !default;
+$linkHoverColor: $brandBlue !default;
+$linkPressedColor: darken($brandDeepBlue, 20) !default;
+$linkDisabledColor: $gray25 !default;
+
+$checkboxSize: 16px !default;
+$radioSize: 16px !default;
+
+$mainContentPaddingL: 30px !default;
+
+$smallSpacing: 10px;
+$largeSpacing: 30px;
+
+$contentMinHeight: calc(100vh - #{($mainContentPaddingL * 2) + $headerHeight}) !default;
+
+$progressBoxMaxHeight: 3 !default;
+$progressBoxItemHeight: 70px !default;
+
+$fontPath: "font" !default;
+
+// TODO: need to refactor all components to use these break points or something close to this
+$media--medium: 768px !default;
+$media--large: 1024px !default;
+$media--extraLarge: 1440px !default;

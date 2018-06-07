@@ -1,0 +1,26 @@
+@import "~theme/vars.scss";
+
+.DropdownItem {
+  padding: 7px 0;
+  font-size: $bodyN;
+  &__icon {
+    margin-right: .6rem;
+    color: $fontColor;
+  }
+  &__separator {
+    border-bottom: 1px solid $gray25;
+  }
+  &__link {
+  	display: inline-block;
+    vertical-align: middle;
+  }
+  &__content {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a:hover &__icon,
+  a:hover &__link,
+  a:hover &__content {
+    color: $linkHoverColor;
+  }
+}

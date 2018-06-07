@@ -1,0 +1,39 @@
+@import "~theme/vars";
+
+.Avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    background-color: $brandPaleBlue;
+
+    &__label {
+        font-family: $bodyFontFamily;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+.AvatarInfo {
+    display: flex;
+    align-items: center;
+    &__right {
+        margin-left: 1em;
+    }
+    &__userName {
+        color: $fadedText;
+        margin-left: .5em;
+    }
+    & &__email {
+        font-size: $bodyS;
+        color: $linkColor;
+    }
+}
+.popover.AvatarDropdown {
+    max-width: none;
+}

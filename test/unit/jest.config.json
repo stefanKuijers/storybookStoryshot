@@ -1,0 +1,28 @@
+{
+  "rootDir": "../../",
+  "setupTestFrameworkScriptFile": "<rootDir>/test/unit/jest.setup.js",
+  "transform": {
+    "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleDirectories": [
+    "node_modules",
+    "./atoms",
+    "./molecules",
+    "./organisms"
+  ],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "scss"
+  ],
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css|scss)$": "<rootDir>/test/unit/mocks/file.js"
+  },
+  "globals": {
+    "ts-jest": {
+      "useBabelrc": true
+    }
+  }
+}

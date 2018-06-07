@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar with additional information matches the snapshot 1`] = `
+<div
+  className="Dropdown"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <a
+    className="Dropdown__link"
+    id="john88-info"
+    onClick={[Function]}
+  >
+    <span
+      className="Dropdown__title"
+    >
+      <div
+        className="Avatar tclass-avatar"
+      >
+        <span
+          className="Avatar__label"
+        >
+          JD
+        </span>
+      </div>
+    </span>
+  </a>
+</div>
+`;
+
+exports[`Avatar with property name matches the snapshot 1`] = `
+<div
+  className="Avatar tclass-avatar"
+>
+  <span
+    className="Avatar__label"
+  >
+    JD
+  </span>
+</div>
+`;

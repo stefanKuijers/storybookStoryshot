@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown with property name matches the snapshot 1`] = `
+<div
+  className="Dropdown"
+>
+  <a
+    className="Dropdown__link"
+    id="DropdownDefaultId"
+    onClick={[Function]}
+  >
+    <span
+      className="Dropdown__title"
+    >
+      Lorem ipsum
+    </span>
+    <figure
+      className="Icon tclass-icon Icon__downarrow DropdownIcon"
+    >
+      <span
+        className="Icon__holder"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "test-file-stub",
+          }
+        }
+      />
+    </figure>
+  </a>
+</div>
+`;

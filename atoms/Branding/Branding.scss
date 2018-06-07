@@ -1,0 +1,40 @@
+@import "~theme/vars";
+
+.Branding {
+  display: none;
+  &__text {
+    display: none;
+  }
+}
+
+@media (min-width: $media--large) {
+  .Branding {
+    display: block;
+
+    .Branding__logo {
+      width: 32px;
+      height: 32px;
+      margin: 21px 16px;
+      vertical-align: middle;
+      svg {
+        max-width: 100%;
+        height: 32px;
+      }
+    }
+  }
+}
+
+@media (min-width: $media--extraLarge) {
+  .Branding {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .Branding__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    white-space: nowrap;
+  }
+}
