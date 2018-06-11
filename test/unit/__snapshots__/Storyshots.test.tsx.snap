@@ -1,0 +1,536 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Tests Atoms Branding 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Atoms &gt; Branding
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="Branding tclass-branding"
+        >
+          <img
+            className="Branding__logo"
+            src="https://i.ytimg.com/vi/4yikpWtIFU8/maxresdefault.jpg"
+          />
+          <b
+            className="Branding__text"
+          >
+            
+          </b>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Tests Molecules/Avatar Avatar with info 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Molecules &gt; Avatar
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="Dropdown"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <a
+            className="Dropdown__link"
+            id="john88-info"
+            onClick={[Function]}
+          >
+            <span
+              className="Dropdown__title"
+            >
+              <div
+                className="Avatar tclass-avatar"
+              >
+                <span
+                  className="Avatar__label"
+                >
+                  JD
+                </span>
+              </div>
+            </span>
+          </a>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Tests Molecules/Avatar Simple Avatar 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Molecules &gt; Avatar
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="Avatar tclass-avatar"
+        >
+          <span
+            className="Avatar__label"
+          >
+            DL
+          </span>
+        </div>
+        <div
+          className="Avatar tclass-avatar"
+        >
+          <span
+            className="Avatar__label"
+          >
+            JD
+          </span>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Tests Molecules/Dropdown Dropdown 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Molecules &gt; Dropdown
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="Dropdown"
+        >
+          <a
+            className="Dropdown__link"
+            id="DropdownDefaultId"
+            onClick={[Function]}
+          >
+            <span
+              className="Dropdown__title"
+            >
+              Lorem ipsum
+            </span>
+          </a>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Tests Molecules/Dropdown DropdownItem 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Molecules &gt; Dropdown
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="DropdownItem tclass-dropdownItem"
+        >
+          <a
+            onClick={[Function]}
+          >
+            <figure
+              className="Icon tclass-icon Icon__fire DropdownItem__icon"
+            >
+              <span
+                className="Icon__holder"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "test-file-stub",
+                  }
+                }
+              />
+            </figure>
+            <span
+              className="DropdownItem__content"
+            >
+              Lorem ipsum
+            </span>
+          </a>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`My Tests Molecules/Dropdown Header Dropdown 1`] = `
+<div
+  data-css-18sl43g=""
+>
+  <div
+    data-css-7odcmz=""
+  >
+    <h2
+      data-css-ekxd8x=""
+    >
+      Molecules &gt; Dropdown
+    </h2>
+  </div>
+  <div
+    data-css-x240ki=""
+  >
+    <div
+      data-css-q8x515=""
+    >
+      <div
+        data-css-1hdh7jm=""
+      >
+        <div
+          className="Dropdown"
+        >
+          <a
+            className="Dropdown__link"
+            id="headerDropdown"
+            onClick={[Function]}
+          >
+            <span
+              className="Dropdown__title"
+            >
+              <h1
+                className="HeaderTitle tclass-title"
+              >
+                This stuff
+              </h1>
+            </span>
+            <figure
+              className="Icon tclass-icon Icon__downarrow DropdownIcon"
+            >
+              <span
+                className="Icon__holder"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "test-file-stub",
+                  }
+                }
+              />
+            </figure>
+          </a>
+        </div>
+        <div
+          data-css-1xjdp6g=""
+        >
+          <div
+            data-css-1u3clyi=""
+          />
+          <div
+            data-css-1vfpuyw=""
+          />
+        </div>
+        <div
+          data-css-1l117w4=""
+        >
+          <div
+            data-css-6x2xk9=""
+          />
+          <div
+            data-css-dh4rml=""
+          />
+        </div>
+        <div
+          data-css-3dqrhs=""
+        >
+          <div
+            data-css-jidh41=""
+          />
+          <div
+            data-css-zkhvkf=""
+          />
+        </div>
+        <div
+          data-css-14agfjn=""
+        >
+          <div
+            data-css-1dkszzo=""
+          />
+          <div
+            data-css-mqumhe=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
