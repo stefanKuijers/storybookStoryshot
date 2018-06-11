@@ -1,9 +1,5 @@
 const configure = require("@storybook/react").configure;
-
 const req = require.context('../storybook', true, /story\.tsx$/);
-
-// function loadStories() {
-// }
 
 function loadStories() {
   // setup & dependencies
